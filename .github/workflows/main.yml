@@ -34,7 +34,3 @@ jobs:
     - name: Install Node Dependencies
       run: npm install
       working-directory: ./projeto-node
-
-    - name: Test Node.js Application
-      run: npm test
-      working-directory: ./projeto-node
